@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: "Roboto Condensed", sans-serif;
+}
 .nav{
     display: flex;
     justify-content: space-between;
-    background-color: grey;
+    background-color: rgb(236, 234, 234);
      padding:1vh;  
 
 }
@@ -20,21 +23,31 @@
 .heading-center{
     margin-top: 4rem;
     margin-left: 2rem;
+    
+   
 }
 .heading-center input{
     height: 3vh; 
     width: 25vw;
     border-radius:6px;
+    border: 2px solid rgb(194, 193, 193);
+     height: 4vh;
+      width: 25vw;
 }
 
 .heading-center2{
-     margin-top: 4rem;
-    margin-left: 2rem;
-}
+     margin-top: 4rem; 
+    margin-left: 2rem; 
+}    
+
 .heading-center2 input{
     height: 3vh;
     width: 4vw;
-    border-radius: 5px;
+    border-radius: 6px;
+     border: 2px solid rgb(194, 193, 193);
+     height: 4vh;
+      width: 7vw;
+      padding: 1vh;
 }
 .top
 {
@@ -42,10 +55,11 @@
 }
 .icon{
     margin-top: 4rem;
+    margin-left: 5.5rem;
 }
 .heart{
     font-size: 1.5rem;
-    margin-left: 55rem;
+    margin-left: 50rem;
     color: #333537;
 }
 .user{
@@ -64,6 +78,15 @@
     border-radius: 1vh ;
     margin-left: 1.5rem;
 }
+button{
+    border: none;
+}
+select{
+ border: none;
+ font-size: 2vh;
+ gap: 5vh;
+}
+
 #hero{
     background-image: url(./asset/img.png) ;
     height:70vh;
@@ -71,18 +94,18 @@
     background-size:cover;
     background-repeat: no-repeat;
     margin: 6 rem , 5rem; 
-    border-radius: 3rem;
+    /* border-radius: 3rem; */
 }
 .sub-main{
-    padding: 10rem;
-    margin-left: 9rem ;
+    padding-top: 9rem;
+    margin-left: 4rem ;
 }
 
 .yellow-btn{
     margin-bottom: 2rem;
     height: 3vh;
     width: 15vw;
-    background-color: lightgoldenrodyellow;
+    background-color:gold;
     border-radius: 1vh;
     border-color: white;
     font-weight: bold;
@@ -133,8 +156,14 @@
 .one{
     padding: 2rem;
    margin-left: 3rem;
-    height: 30vh;
+    height: 25vh;
     width: 9vw  ;
+}
+.one1{
+     padding: 2rem;
+   margin-left: 3rem;
+    height: 25vh;
+    width: 10vw;
 }
 .sub{
  text-align: center;
@@ -374,4 +403,10 @@ footer{
 .last{
     display: flex;
     justify-content: space-between;
+}
+.last2{
+    display: flex;
+}
+.icon3{
+    font-size: 1.5rem;
 }
